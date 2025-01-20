@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate Baptist Church - Online Giving</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java/script.js" defer></script>
+</head>
+<body class="me">
+    <header class="top-bar">
+        <h1>Estate Baptist Church Online Giving</h1>
+    </header>
+
+    <div class="container">
+        <h2>Give Your Offering</h2>
+        <p>Please fill out the form below to make your donation.</p>
+
+        <form action="mailto:danielopeyemi@gmail.com" method="post" id="donationForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Donation Category</label>
+                <select id="category" name="category" required>
+                    <option value="tithes">Tithes</option>
+                    <option value="offerings">Offerings</option>
+                    <option value="building">Building Fund</option>
+                    <option value="missions">Missions</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="amount">Amount (₦)</label>
+                <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Additional Message (Optional)</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write a message..."></textarea>
+            </div>
+
+            <button type="submit">Donate Now</button>
+        </form>
+
+        <div class="bank-details">
+            <h3>Bank Details for Transfer</h3>
+            <ul>
+                <li><strong>Bank Name:</strong>  GTBank</li>
+                <li><strong>Account Name:</strong> Estate Baptist Church, ijapo, Akure</li>
+                <li><strong>Account Number:</strong> 0034292027</li>
+            </ul>
+        </div>
+
+    
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Estate Baptist Church. All rights reserved.</p>
+    </footer>
+    <script src="java/script.js"></script>
+</body>
+</html>
