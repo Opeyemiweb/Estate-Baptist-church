@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Estate Baptist Church</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="Contact-1">
+    <h1>Contact Us</h1>
+    </header>
+    <!-- Sliding Navigation Menu -->
+    <nav class="submenu">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="tithes.html">Tithes & Offerings</a></li>
+        <li><a href="sunday-service videos.html">Sunday Service Videos</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    </nav>
+
+    <div class="container1">
+        <section class="intro">
+            <h1>We're here for you!</h1>
+            <p>If you would like to talk to us, please call us at <a href="tel:+2348067098079, +2348079078455 ">+2348067098079, +2348079078455</a> or send an email to <br><a href="estatebaptistchurch@yahoo.com">estatebaptistchurch@yahoo.com</a></p></p>
+        </section>
+
+    
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="title">Title</label>
+                <select id="title" name="title" required>
+                    <option value="">Select Title</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Pastor">Pastor</option>
+                    <option value="Deacon">Deacon</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Apostle">Apostle</option>
+                    <option value="Minister">Minister</option>
+                    <option value="Reverend">Reverend</option>
+                    <option value="Others">Others</option>
+                </select>
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <label for="country">State</label>
+                <select id="country" name="country" required>
+                    <option value="">Select State</option>
+                    <!-- Add country options here -->
+                    <option value="Nigeria">Ondo</option>
+                    <option value="Ghana">Lagos</option>
+                    <option value="Kenya">Ibadan</option>
+                    <option value="Nigeria">Osun</option>
+                    <option value="Ghana">Ogun</option>
+                    <option value="Kenya">Abuja</option>
+                    <!-- Add more countries as needed -->
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <script src="java/script.js"></script>
+</body>
+</html>
